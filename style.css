@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .header-right{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+} */
+section{
+    /* background-color: pink; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.student-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 96%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 60px;
+}
+
+.student-image img{
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.student-details{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+}
+
+
+.fab-fa-instagram {
+    color: #E4405F;
+}
+
+.profile-details h1{
+    font-size: 35px;
+    margin-left: 15px; 
+    font-size: 1.5rem;
+    border: none;
+}
+
+.student-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.student-icon img {
+    height: 100px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 14px 40px;
+    /* position: fixed; */
+    /* z-index: 100; */
+}
+
+.logo{
+    width: 38vw;
+    height: 12vw;
+    background-color:aqua ;
+}
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width:780px){
+    h1{
+        font-size: 300px;
+    }
+}
+
+.section{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+
+section{
+    /* background-color: pink; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.encounter  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 96%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.encounter-img img{
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* インスタボタン */
+
+.insta_btn3 {/*ボタンの下地*/
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 14px;/*角丸に*/
+    position: relative;
+    display: block;
+    height: 100px;/*高さ*/
+    width: 100px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    padding-top: 12px;/*上側との余白*/
+    box-sizing: border-box;
+    font-size: 13px;/*文字のサイズ*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+  }
+  
+  .insta_btn3:before{/*グラデーション②*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;/*全体を覆う*/
+    height: 100%;/*全体を覆う*/
+    background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  }
+  
+  .insta_btn3 div {
+    position: relative;
+  }
+  
+  .insta_btn3 .fa-instagram {
+      font-size: 70px;/*アイコンサイズ*/
+      position: relative;
+      display:inline-block;
+      position: relative;
+      transition: .5s
+  }
+  
+  .insta_btn3 .fa-instagram:hover {/*ホバーで一周回転*/
+    -webkit-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+
+  .last{
+    width: 60%;
+    text-align: left;
+    font-size: 19px;
+    margin: 0 auto;
+  }
